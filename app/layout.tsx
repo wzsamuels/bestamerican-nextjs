@@ -132,6 +132,9 @@ export default function RootLayout({
               </div>
             </div>
           </div>
+          <div className={'w-full justify-center flex'}>
+            © {new Date().getFullYear()} American Medical Supplies | Website by &nbsp;<a className={'underline text-lightBlue'} href={'https://twinsilverdesign.com'}>Twin Silver Web Design</a>
+          </div>
         </footer>
       </body>
     </html>
