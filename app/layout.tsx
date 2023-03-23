@@ -60,8 +60,8 @@ export default function RootLayout({
                 links.map(link =>
                   <Link
                     className={`my-4 px-6 text-xl relative after:transition after:absolute after:w-1/2 after:right-1/2
-                      after:translate-x-[50%] after:hover:h-[1px] after:top-[100%] after:left-0 after:hover:bg-black
-                      ${pathname === link.url ? 'after:h-[1px] after:bg-black' : 'after:h-[0.5px] after:bg-gray-500'}`}
+                      after:translate-x-[50%] after:hover:h-[2px] after:top-[100%] after:left-0 after:hover:bg-black
+                      ${pathname === link.url ? 'after:h-[2px] after:bg-black' : 'after:h-[1px] after:bg-gray-500'}`}
                     key={link.text} href={link.url}
                   >
                     {link.text}

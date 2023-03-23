@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import banner_image from '../public/banner.jpg';
 
+import banner_image from '../public/banner.jpg';
 import shoe_image from '../public/shoe.jpg';
 import scooter_image from '../public/scooter.jpg';
 import strap_image from '../public/strap.jpg';
@@ -83,7 +82,7 @@ export default function Home() {
                 {
                   product.image &&
                   <div className={'m-8 flex flex-col'} key={product.text}>
-                    <Image src={product.image} alt={product.text}/>
+                    <Image priority src={product.image} alt={product.text}/>
                     <div className={'text-xl lg:text-2xl'}>{product.text}</div>
                   </div>
                 }
