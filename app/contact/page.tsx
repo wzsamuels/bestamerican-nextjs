@@ -44,8 +44,10 @@ const Contact = () => {
         <div className={'my-2'}>Monday - Friday: 8:00 AM - 5:00 PM</div>
       </div>
       { message ?
-        <div  className={'flex flex-col max-w-5xl w-full text-xl text-center border border-lightBlue p-4 rounded-xl'}>
-          {message}
+        <div className='min-h-[20rem] flex justify-center items-center'>
+          <div  className={'max-w-5xl w-full text-xl text-center border border-lightBlue p-4 sm:p-6 rounded-xl'}>
+            {message}
+          </div>
         </div>
         :
         <form
