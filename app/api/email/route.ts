@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const params = {
     Destination: {
       ToAddresses: [
-        'wzsamuels@gmail.com',
+        'bestamerican.medicalsupplies@gmail.com',
       ]
     },
     Message: {
@@ -29,7 +29,7 @@ export async function POST(request: Request) {
       },
       Subject: {
         Charset: 'UTF-8',
-        Data: 'Test email'
+        Data: 'Best American Customer Email'
       }
     },
     Source: 'auto-mail@twinsilverdesign.com' /* required */
