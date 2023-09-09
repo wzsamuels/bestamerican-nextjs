@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const params = {
     Destination: {
       ToAddresses: [
-        'bestamerican.medicalsupplies@gmail.com',
+        'wzsamuels@gmail.com',
       ]
     },
     Message: {
