@@ -87,8 +87,8 @@ export default function RootLayout({
                             href={link.url}
                       >
                         {link.text}
-                      </Link
-                    ></div>
+                      </Link>
+                    </div>
                   )
                 }
               </div>
@@ -125,7 +125,7 @@ export default function RootLayout({
               <div className={'my-2'}>
                 (919) 896-7222</div>
               <div className={'my-2'}>
-                1100 Navaho Dr Ste 121, Raleigh, NC 27609
+                1100 Navaho Dr Ste 121, Raleigh, NC 27609-7364
               </div>
               <div className={'my-2'}>
                 Monday - Friday: 8:00 AM - 5:00 PM
