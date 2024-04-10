@@ -40,7 +40,7 @@ const Contact = () => {
       <h1 className={'text-3xl md:text-4xl text-center font-serif'}>We&apos;d Love to Hear From You!</h1>
       <div className={'mt-4 mb-8 text-xl md:text-2xl text-center'}>
         <div className={'my-2'}>(919) 896-7222</div>
-        <div className={'my-2'}>100 Navaho Dr Ste 121, Raleigh, NC 27609-7364</div>
+        <div className={'my-2'}>1100 Navaho Dr Ste 121, Raleigh, NC 27609-7364</div>
         <div className={'my-2'}>Monday - Friday: 8:00 AM - 5:00 PM</div>
       </div>
       { message ?
